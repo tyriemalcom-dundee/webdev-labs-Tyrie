@@ -1,0 +1,26 @@
+  .HeadText {
+    color: #EF233C;
+    font-weight: bold;
+  }
+
+  .Align {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #BA4956;
+    text-decoration: underline;
+
+  }
+
+  li {
+    color: #8D99AE;
+    font-style: italic;
+  }
+
+  footer {
+    background-color: #e0e1f0;
+    font-style: italic;
+    text-align: center;
+  }
+    
