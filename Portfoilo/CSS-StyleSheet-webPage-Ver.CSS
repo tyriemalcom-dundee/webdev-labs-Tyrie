@@ -3,9 +3,13 @@
     font-weight: bold;
   }
 
-  .Font2 {
-    color: green;
-    font-weight: bold;
+
+  .Main-Font{
+    font-family: 'CustomFont'; src: url('Fonts/DM_Serif_Text/DMSerifText-Regular.ttf');
+  }
+
+  .Main-Font-Italics{
+    font-family: 'CustomFont'; src: url('Fonts/DM_Serif_Text/DMSerifText-Italic.ttf');
   }
 
 
