@@ -1,0 +1,18 @@
+  .Font1 {
+    color: green;
+
+  }
+
+
+  .Main-Font{
+    font-family: 'CustomFont'; src: url('Fonts/DM_Serif_Text/DMSerifText-Regular.ttf');
+  }
+
+  .Main-Font-Italics{
+    font-family: 'CustomFont'; src: url('Fonts/DM_Serif_Text/DMSerifText-Italic.ttf');
+  }
+
+
+
+
+    
