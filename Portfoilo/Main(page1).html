@@ -11,164 +11,182 @@
   </head>
   <body>
 
-  <main>
+    <main>
 
-    <div class="container"> 
-    
+        <div class="container"> 
         
-        <nav class="navbar navbar-expand-lg bg-light shadow mb-3">
-            <div class="container-fluid">  
-                <a class="navbar-brand Main-Font" href="#">Portfoilo<span class="badge text-bg-secondary Main-Font">3</span></a>
+            <!--Nav bar and main title-->
+            <Header>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active Main-Font" aria-current="page" href="Main(page1).html">Main Page</a></li>
-                        <li class="nav-item"><a class="nav-link Main-Font" href="Portfoilo(page2).html">Protfoilo</a></li>
-                        <li class="nav-item"><a class="nav-link Main-Font" href="About(page3).html">About</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg bg-light shadow mb-3">
+                    <div class="container-fluid">  
+                        <a class="navbar-brand Main-Font" href="#">Portfoilo<span class="badge text-bg-secondary Main-Font">3</span></a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="nav-link active Main-Font" aria-current="page" href="Main(page1).html">Main Page</a></li>
+                                <li class="nav-item"><a class="nav-link Main-Font" href="Portfoilo(page2).html">Protfoilo</a></li>
+                                <li class="nav-item"><a class="nav-link Main-Font" href="About(page3).html">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                
+
+                <div class="row shadow fst-italic mx-1">
+                    <div class="col-12 bg-primary text-white text-center p-3">
+                        <h1 class="Main-Font">Tyrie Malcolm</h1>
+                        <p class="Main-Font">Portfoilo</p>
+                    </div>
                 </div>
-            </div>
-        </nav>
 
-        
+            </Header>
 
-        <div class="row shadow fst-italic mx-1">
-            <div class="col-12 bg-primary text-white text-center p-3">
-                <h1 class="Main-Font">Tyrie Malcolm</h1>
-                <p class="Main-Font">Portfoilo</p>
-            </div>
-        </div>
+            <!--Primary image/card centered-->
+            <section>
 
-        <div class="row mb-3">
-            <div class="col-12 col-md-12 bg-light">
+                <div class="row mb-3">
+                    <div class="col-12 col-md-12 bg-light">
 
-                <div class="card " style="max-height: 600px;">
-                    <div class="card-body">
-                        <h6 class="card-title fst-italic Main-Font">Main Achievement</h6>
-                        <p class="card-text Main-Font">- from 'insert module'</p>
+                        <div class="card " style="max-height: 600px;">
+                            <div class="card-body">
+                                <h6 class="card-title fst-italic Main-Font">Main Achievement</h6>
+                                <p class="card-text Main-Font">- from 'insert module'</p>
+                                
+                                    <button class="btn btn-primary Main-Font" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Read More Main</button>
+
+                                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title Main-Font" id="offcanvasScrollingLabel">Sub heading about achevement main</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <p class="Main-Font">expanded text about achevement main</p>
+                                        </div>
+                                    </div>
+                            </div>
                         
-                            <button class="btn btn-primary Main-Font" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Read More Main</button>
+                            <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg"class="card-img-bottom"style="height: 200px; object-fit: cover;"alt="Trulli">
+                        </div>
+                        
+                    </div>
 
-                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                                <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title Main-Font" id="offcanvasScrollingLabel">Sub heading about achevement main</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+            </section>
+
+
+            <!--left and right facing cards-->
+            <section>
+
+                <div class="row mb-3">
+                    <div class="card col-12 col-md-6" >
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-titl text-sucsess-emphasis fw-semibold Main-Font">Portfoilo</h5>
+                                    <p class="card-text Main-Font">aaaa -aaaa aaaaa</p>
+                                    <p class="card-text"><small class="text-body-secondary Main-Font">Minor card text is here</small></p>
+                                    <a href="Portfoilo(page2).html" class="btn btn-success btn-sm Main-Font">Go to page</a>
                                 </div>
-                                <div class="offcanvas-body">
-                                    <p class="Main-Font">expanded text about achevement main</p>
+                                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-12 col-md-6" >
+                        <div class="row g-0">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary-emphasis fw-semibold Main-Font">About Me</h5>
+                                    <p class="card-text Main-Font">BBBB = bbbbb  bbbbbb</p>
+                                    <p class="card-text"><small class="text-body-secondary Main-Font">Minor card text is here </small></p>
+                                    <a href="About(page3).html" class="btn btn-primary btn-sm Main-Font">Go to page</a>
+                                    
+
+                                </div>
+                            </div>  
+
+                            <div class="col-md-4">
+                                <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
+                            </div>
+
+
+                        </div>
+                    </div>
+            
+                </div>
+
+            </section>
+
+            <section>
+
+                <div class="row mb-3">
+                    <div class="col-3 col-md-3 bg-light">
+                            <div class="card">
+                                <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
+                                <div class="card-body">
+                                    <h6 class="card-title Main-Font">Fact 1</h6>
+                                    <p class="card-text Main-Font">- first story</p>
                                 </div>
                             </div>
                     </div>
-                
-                    <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg"class="card-img-bottom"style="height: 200px; object-fit: cover;"alt="Trulli">
+                    <div class="col-3 col-md-3 bg-light">
+                            <div class="card">
+                                <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
+                                <div class="card-body">
+                                    <h6 class="card-title Main-Font">Fact 2</h6>
+                                    <p class="card-text Main-Font">- second story</p>
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-3 col-md-3 bg-light">
+                            <div class="card">
+                                <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
+                                <div class="card-body">
+                                    <h6 class="card-title Main-Font">Fact 3</h6>
+                                    <p class="card-text Main-Font">- third story</p>
+
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-3 bg-light">
+                            <div class="card">
+                                <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
+                                <div class="card-body">
+                                    <h6 class="card-title Main-Font">Fact 4</h6>
+                                    <p class="card-text Main-Font">- fourth story</p>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-                
+
+            </section>
+
+
+            <div class="row mb-3">
+
+                <p class="col-12 d-block d-md-none alert alert-warning text-center mt-2 Main-Font">Only visable when the size of the tab is reduced or using mobile!</p>
+                    
             </div>
+
+            <div class="row">
+                <div class="col-12 col-md-12 bg-dark text-white text-center p-4 Main-Font">@ 2026 Dundee University - Tyrie Malcolm</div>
+            </div>
+
 
         </div>
 
-        <div class="row mb-3">
-            <div class="card col-12 col-md-6" >
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
-                    </div>
-
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-titl text-sucsess-emphasis fw-semibold Main-Font">Portfoilo</h5>
-                            <p class="card-text Main-Font">aaaa -aaaa aaaaa</p>
-                            <p class="card-text"><small class="text-body-secondary Main-Font">Minor card text is here</small></p>
-                            <a href="Portfoilo(page2).html" class="btn btn-success btn-sm Main-Font">Go to page</a>
-                        </div>
-                            
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-12 col-md-6" >
-                <div class="row g-0">
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary-emphasis fw-semibold Main-Font">About Me</h5>
-                            <p class="card-text Main-Font">BBBB = bbbbb  bbbbbb</p>
-                            <p class="card-text"><small class="text-body-secondary Main-Font">Minor card text is here </small></p>
-                            <a href="About(page3).html" class="btn btn-primary btn-sm Main-Font">Go to page</a>
-                            
-
-                        </div>
-                    </div>  
-
-                    <div class="col-md-4">
-                        <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
-                    </div>
-
-
-                </div>
-            </div>
-    
-        </div>
-
-        <div class="row mb-3">
-            <div class="col-3 col-md-3 bg-light">
-                    <div class="card">
-                        <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
-                        <div class="card-body">
-                            <h6 class="card-title Main-Font">Fact 1</h6>
-                            <p class="card-text Main-Font">- first story</p>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-3 col-md-3 bg-light">
-                    <div class="card">
-                        <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
-                        <div class="card-body">
-                            <h6 class="card-title Main-Font">Fact 2</h6>
-                            <p class="card-text Main-Font">- second story</p>
-
-                        </div>
-                    </div>
-            </div>
-            <div class="col-3 col-md-3 bg-light">
-                    <div class="card">
-                        <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
-                        <div class="card-body">
-                            <h6 class="card-title Main-Font">Fact 3</h6>
-                            <p class="card-text Main-Font">- third story</p>
-
-                        </div>
-                </div>
-            </div>
-            <div class="col-3 col-md-3 bg-light">
-                    <div class="card">
-                        <img src="https://www.fodors.com/wp-content/uploads/2019/07/trulli-3.jpg" class="card-img-top" alt="Trulli">
-                        <div class="card-body">
-                            <h6 class="card-title Main-Font">Fact 4</h6>
-                            <p class="card-text Main-Font">- fourth story</p>
-                        </div>
-                    </div>
-            </div>
-        </div>
-
-        <div class="row mb-3">
-
-            <p class="col-12 d-block d-md-none alert alert-warning text-center mt-2 Main-Font">Only visable when the size of the tab is reduced or using mobile!</p>
-
-
-                   
-        </div>
-
-        <div class="row">
-            <div class="col-12 bg-dark text-white text-center p-4 Main-Font">@ 2026 Dundee University - Tyrie Malcolm</div>
-        </div>
-
-
-    </div>
-
-  </main>  
+    </main>  
   </body>
 </html>
